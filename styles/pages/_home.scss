@@ -1,0 +1,294 @@
+/*---------------------------------------
+   1.4 TEXT / COLORS
+-----------------------------------------*/
+
+.dark-text {
+  color: #660066;
+}
+
+.dark-text2 {
+  color: #CC00CC;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.red-text {
+  color: #fc5f45;
+}
+
+.green-text {
+  color: #38c695;
+}
+
+.purple-text {
+  color: #990099;
+}
+
+.pink-text {
+  color: #FF00FF;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.small-text {
+  font-size: 14px;
+}
+
+.extra-small-text {
+  font-size: 13px;
+}
+
+strong, .strong {
+  font-weight: 500;
+}
+
+/*---------------------------------------
+   1.5 LINES, SHADOW & GRADEINTS
+-----------------------------------------*/
+
+.dark-purple-line-bottom {
+  border-bottom: 3px solid #660066;
+}
+
+.purple-line-bottom {
+  border-bottom: 3px solid #990099;
+}
+
+.dark-pink-line-bottom {
+  border-bottom: 3px solid #CC00CC;
+}
+
+.pink-line-bottom {
+  border-bottom: 3px solid #FF00FF;
+}
+
+.dark-purple-line-top {
+  border-top: 3px solid #660066;
+}
+
+.purple-line-top {
+  border-top: 3px solid #990099;
+}
+
+.dark-pink-line-top {
+  border-top: 3px solid #CC00CC;
+}
+
+.pink-line-top {
+  border-top: 3px solid #FF00FF;
+}
+
+.four-lines {
+  width: 100%;
+  .line {
+    width: 25%;
+    float: left;
+  }
+}
+
+.diffuse-shadow {
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.05);
+}
+
+.image-border {
+  box-shadow: inset 0 0 0 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.red-gradient-overlay:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  background: -webkit-linear-gradient(top, rgba(255, 0, 0, 0) 0%, rgba(252, 95, 69, 0.6) 100%);
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgba(252, 95, 69, 0.6) 100%);
+  -webkit-transition: all ease 0.25s;
+  transition: all ease 0.25s;
+}
+
+.green-gradient-overlay:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  background: -webkit-linear-gradient(top, rgba(255, 0, 0, 0) 0%, rgba(56, 198, 149, 0.6) 100%);
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgba(56, 198, 149, 0.6) 100%);
+  -webkit-transition: all ease 0.25s;
+  transition: all ease 0.25s;
+}
+
+.purple-gradient-overlay:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  background: -webkit-linear-gradient(top, rgba(255, 0, 0, 0) 0%, rgba(178, 124, 245, 0.6) 100%);
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgba(178, 124, 245, 0.6) 100%);
+  -webkit-transition: all ease 0.25s;
+  transition: all ease 0.25s;
+}
+
+.yellow-gradient-overlay:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  background: -webkit-linear-gradient(top, rgba(255, 0, 0, 0) 0%, rgba(254, 185, 96, 0.6) 100%);
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgba(254, 185, 96, 0.6) 100%);
+  -webkit-transition: all ease 0.25s;
+  transition: all ease 0.25s;
+}
+
+.dark-gradient-overlay:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.75;
+  background: -webkit-linear-gradient(top, rgba(255, 0, 0, 0) 50%, #000000 100%);
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 50%, #000000 100%);
+  -webkit-transition: all ease 0.25s;
+  transition: all ease 0.25s;
+}
+
+/*---------------------------------------
+   1.6 HEADINGS, SECTION HEADERS & BG
+-----------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+  color: #660066;
+}
+
+h1 {
+  font-family: 'Libre Baskerville', 'Playfair Display', Georgia, serif;
+  font-size: 3.75rem;
+  line-height: 5.313rem;
+}
+
+h2 {
+  font-family: 'Libre Baskerville', 'Playfair Display', Georgia, serif;
+  font-size: 3.125rem;
+  line-height: 4.688rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 48px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 33px;
+  font-weight: 500;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+/* HEADER AND BG */
+
+.section-heading {
+  position: relative;
+  z-index: 10;
+}
+
+section {
+  position: relative;
+}
+
+.section-header {
+  position: relative;
+  z-index: 10;
+  margin-bottom: 25px;
+}
+
+.sub-heading {
+  font-size: 18px;
+  margin-top: 13px;
+}
+
+.bgcolor-2 {
+  background: #660066;
+}
+
+.bgcolor-3 {
+  background: #FFEEFF;
+}
+
+.white-bg {
+  background: #ffffff;
+}
+
+/*---------------------------------------
+   2.2 SECTION: ABOUT US
+-----------------------------------------*/
+
+.naturapraxis {
+  padding-top: 64px;
+  padding-bottom: 75px;
+  .featured-image {
+    position: relative;
+    width: 100%;
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+}
+
+.overflow-box {
+  margin-left: -200px;
+  position: relative;
+  z-index: 10;
+}
+
+.naturapraxis-box {
+  background: #ffffff;
+  position: relative;
+  margin-top: 75px;
+  z-index: 10;
+  overflow: hidden;
+  .naturapraxis-content {
+    padding-top: 60px;
+    padding-left: 82px;
+    padding-right: 82px;
+  }
+  p {
+    margin-top: 22px;
+    margin-bottom: 100px;
+    position: relative;
+  }
+}
